@@ -1,0 +1,194 @@
+@font-face {
+    font-family: JF-Flat;
+    src: url('fonts/JF-Flat.ttf');
+}
+html
+{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+body
+{
+    font-family: JF-Flat;
+}
+#nav
+{
+    font-family: JF-Flat;
+    margin-top: 0px;
+}
+.ui.menu .item
+{
+    position:inherit;
+}
+.logo
+{
+  padding: 2px;
+    background-color:#757575;
+}
+h3
+{
+    font-family: JF-Flat;
+    color: #ffffff;
+}
+.button-and-search
+{
+    float : left;
+    margin-left:4px;
+    margin-top:6px;
+}
+.page-header
+{
+    margin-top:8px;
+    display:inline-block;
+    margin-right: 250px;
+}
+#page-header-image
+{
+   display:inline-block;
+   margin-bottom:10px;
+   
+}
+#text-page-header
+{
+    font-family:JF-Flat;
+    color:#ffffff;
+}
+.ui.tiny.header
+{
+    padding-left: 0;
+    padding-right: .75em;
+    margin-bottom:10px;
+}
+.ui.header>.image+.content, .ui.header>img+.content
+{
+    padding-right: .75em;
+}
+.ui.icon.input input
+{
+    direction:rtl;
+    text-align:right;
+    padding-left: 2.67142857em!important;
+    padding-right:0.5em!important;
+}
+.ui.icon.input>i.icon
+{
+    right: auto;
+    left:0;
+}
+.ui.header
+{
+    font-family: JF-Flat;
+    color: #ffffff;
+
+}
+h5
+{
+    font-family: JF-Flat;
+}
+.news
+{
+    text-align: end;
+}
+h2
+{
+    font-family: JF-Flat;
+    color: #222222;
+
+}
+.ui.input input
+{
+    direction: rtl;
+    text-align: right;
+}
+#sidebar
+{
+    display: none;
+}
+.x
+{
+   border-left:1px green solid;
+}
+.img-product
+{
+    width: 150px !important;
+    height: 200px;
+    margin: auto;
+}
+.img-app
+{
+    width: 150px !important;
+    height: 150px;
+    margin: auto;
+}
+.download-card
+{
+    text-align: left;
+}
+.owl-carousel .ui.card
+{
+    margin: auto;
+}
+
+.owl-carousel .item
+{
+    padding-bottom: 4px;
+    padding-right: 4px;
+}
+.app-header
+{
+    color:black;
+    text-align:center;
+}
+@media all and (max-width:767px)
+{
+    #sidebar
+    {
+        display: block;
+    }
+    .logo
+    {
+        display: none;
+    }
+   #right-nav
+   {
+       display: none;
+   }
+   .page-header
+   {
+       display: none;
+   }
+   .ui.menu
+   {
+       background: #757575;
+       border-radius: 0px;
+   }
+   .mobile-header
+   {
+       min-height: 2.85714286em;
+       border-radius:0 0 5px 5px;
+
+   }
+   .mobile-main-header
+   {
+       padding: 8px;
+       background: #757575;
+   }
+   #mobile-vertical-center
+   {
+       vertical-align: middle;
+       font-family: JF-Flat;
+       display: inline;
+       margin-top: 0;
+   }
+   #mobile-image
+   {
+       display: inline-block;
+   }
+   .x
+   {
+       border-left: none !important;
+   }
+
+
+}
