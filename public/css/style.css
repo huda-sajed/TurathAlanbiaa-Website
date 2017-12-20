@@ -145,6 +145,8 @@ h2
     #sidebar
     {
         display: block;
+        background: #757575;
+        border-radius: 0px;
     }
     .logo
     {
@@ -157,11 +159,6 @@ h2
    .page-header
    {
        display: none;
-   }
-   .ui.menu
-   {
-       background: #757575;
-       border-radius: 0px;
    }
    .mobile-header
    {
