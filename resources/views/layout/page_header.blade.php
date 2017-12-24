@@ -15,12 +15,12 @@
 
     <div class="button-and-search">
 
-        <button class="ui orange button">
+        <a href="#" style="color: #FFF;margin-left: 20px">
             ابدأ الدراسه
-        </button>
-        <button class="ui orange button">
+        </a>
+        <a href="/" style="color: #FFF;margin-left: 20px">
             رؤية المعهد
-        </button>
+        </a>
 
         <div class="ui icon input">
             <input type="text" placeholder="بحث...">

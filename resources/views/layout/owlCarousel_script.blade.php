@@ -70,7 +70,7 @@
                 items: 3
             },
             1000: {
-                items: 3,
+                items: 2,
                 loop: false
             }
         }
@@ -94,7 +94,7 @@
                 items: 3
             },
             1000: {
-                items: 3,
+                items: 2,
                 loop: false
             }
         }
@@ -119,7 +119,7 @@
                 items: 3
             },
             1000: {
-                items: 3,
+                items: 2,
                 loop: false
             }
         }

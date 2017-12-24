@@ -1,6 +1,9 @@
-<div id="right-nav" class="ui green segment" style="margin-top:13px">
-    <div class="two wide column">
-        <a class="ui link" href="/">
+
+<div id="right-nav" class="ui green segment" style="margin-top:13px;width: 18.75%">
+
+
+
+    <a class="ui link" href="/">
 
             <div class="ui tiny teal header">
                 <img src="/img/text-lines.png" style="width : 20px">
@@ -81,5 +84,5 @@
 
         </a>
 
-    </div>
+
 </div>

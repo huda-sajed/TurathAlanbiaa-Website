@@ -25,5 +25,4 @@
             Telegram
         </button>
     </div>
-
 </div>

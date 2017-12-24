@@ -1,3 +1,4 @@
+<div  class="ui container">
 <div id="nav" class="ui center aligned grid">
 
     <div class="eight wide mobile eight wide tablet two wide computer center aligned column">
@@ -65,4 +66,5 @@
         </a>
     </div>
 
+</div>
 </div>

@@ -1,6 +1,6 @@
 <div class="ui card">
     <div class="image">
-        <img src="/img/eve.png">
+        <img src="/img/eve.png" style="border-radius: 10px 10px 0 0">
     </div>
     <div class="content">
         <a href="/title" class="header">العنوان</a>
@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="extra content">
-                <span class="right floated">
+                <span style="color: black;font-weight: bold;font-size: 11px" class="right floated">
                     18/12/2017 12:13 AM
                 </span>
         <span class="left floated">

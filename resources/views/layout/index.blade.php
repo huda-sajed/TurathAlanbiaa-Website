@@ -4,11 +4,11 @@
     @include("layout.head")
 </head>
 
-<body style="direction: rtl;">
+<body style="direction: rtl;background-color: #EEEEEE">
 
 @include("layout.mobile_header")
 
-
+<div style="background-color: #ffffff">
 <div class="ui fluid container">
 
     @include("layout.page_header")
@@ -18,20 +18,24 @@
 
     <div class="ui hidden divider"></div>
 </div>
+</div>
 
-<div class="ui fluid container">
-    <div class="ui grid" style="background-color:#eeeeee">
 
-        @include("layout.right_nav")
+    <div class="ui container">
+        <div class="ui grid" >
 
-        <div class="fourteen wide computer sixteen wide mobile column">
+            @include("layout.right_nav")
 
-            @yield("main_content")
+            <div class="thirteen wide computer sixteen wide mobile column">
 
+                @yield("main_content")
+
+            </div>
         </div>
+
     </div>
 
-</div>
+<div style="background-color: #ffffff">
 
     <div class="ui container">
 
@@ -39,7 +43,7 @@
 
 
     </div>
-
+</div>
 </body>
 
 @include("layout.owlCarousel_script")
